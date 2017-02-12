@@ -21,15 +21,15 @@ from datetime import date, datetime
 from datetime import timedelta
 from time import mktime
 
-VERSION_NAME = "1.0.0"
+VERSION_NAME = "1.0.1"
 VERSION_NUMBER = 10000
 
-db_host = "192.168.0.14"
-db_user = "lottery"
-db_passwd = "redhat"
-db_name = "lottery"
+db_host = ""
+db_user = ""
+db_passwd = ""
+db_name = ""
 veikkausUrl = 'https://www.veikkaus.fi/api/v1/draw-games/draws'
-game = 'KENO' # KENO, LOTTO, JOKERI, VIKING, PORE
+game = 'KENO' # KENO, LOTTO, JOKERI, VIKING, PORE, EJACKPOT, RAFFLE
 status = 'RESULTS_AVAILABLE'
 
 def LotteryDb(roundData):
